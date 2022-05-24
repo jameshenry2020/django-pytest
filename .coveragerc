@@ -1,0 +1,17 @@
+#.coveragerc to control coverage.py
+[run]
+source = .
+omit = env/*
+    *manage.py
+    *asgi.py
+    *settings.py
+    *ApiTesting/*
+    *migrations/*
+    *__pycache__/*
+    *tests/*
+
+
+[report]
+show_missing=True
+skip_covered=False
+
